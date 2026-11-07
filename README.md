@@ -4,13 +4,20 @@ A responsive landing page for an event planning company, built with HTML and Tai
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
-![Netlify](https://img.shields.io/badge/Deployed_on-Netlify-00C7B7?logo=netlify&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?logo=vercel&logoColor=white)
 
-**[🔗 View Live Demo](https://eventra-eventss.netlify.app/)**
+**[🔗 View Live Demo](https://eventra-orcin.vercel.app/)**
 
-<!-- Add a screenshot of your site here:
-![Eventra Preview](./images/preview.png)
--->
+## Screenshots
+
+### Hero Section
+![Hero Section](./screenshots/hero.png)
+
+### Popular Services
+![Popular Services](./screenshots/services.png)
+
+### About Us & Footer
+![About Us](./screenshots/about.png)
 
 ## About
 
@@ -22,24 +29,30 @@ Eventra presents an event planning company's services, brand story, and contact 
 - Hero section with headline, tagline, and call-to-action
 - "Our Popular Services" cards with a hover lift animation
 - About Us section with company values and contact information
-- Simple footer
+- Floral background theme and simple footer
 
 ## Tech Stack
 
 - HTML5
 - Tailwind CSS v4 (CDN browser build, no build step needed)
+- Deployed on Vercel
 
 ## Project Structure
 
 ```
-eventra/
+Eventra/
 ├── index.html
 ├── images/
 │   ├── bg.png
+│   ├── logo.png
 │   ├── landing image.jpg
 │   ├── wedding.png
 │   ├── corporate events.png
 │   └── birthdays.png
+├── screenshots/
+│   ├── hero.png
+│   ├── services.png
+│   └── about.png
 └── README.md
 ```
 
@@ -49,10 +62,10 @@ No installation or build process is needed.
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/<your-repo-name>.git
+git clone https://github.com/MuhammedRizwan2385/Eventra.git
 
 # Go into the project folder
-cd <your-repo-name>
+cd Eventra
 ```
 
 Then open `index.html` in your browser, or serve it locally:
@@ -61,7 +74,7 @@ Then open `index.html` in your browser, or serve it locally:
 npx serve .
 ```
 
-> An internet connection is required, since Tailwind and the logo load from external URLs.
+> An internet connection is required, since Tailwind CSS loads from a CDN.
 
 ## Customization
 
@@ -75,7 +88,6 @@ npx serve .
 - [ ] Mobile navigation menu (hamburger) and better small-screen responsiveness
 - [ ] Booking form or contact page for the "Book Now" and "Plan Your Event" buttons
 - [ ] Dedicated Features section
-- [ ] Host the logo locally instead of using an external URL
 
 ## License
 
@@ -83,5 +95,5 @@ This project is licensed under the [MIT License](LICENSE). Add a `LICENSE` file 
 
 ## Author
 
-**Rizwan**
-GitHub: [@your-username](https://github.com/your-username)
+**Muhammed Rizwan**
+GitHub: [@MuhammedRizwan2385](https://github.com/MuhammedRizwan2385)
